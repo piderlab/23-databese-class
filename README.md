@@ -4,10 +4,10 @@
 
 本講義の演習で扱うデータは以下の通りです。
 
-- [history.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/history.csv) : 乗車履歴
-- [spot.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/spot.csv) : 目的地の DB
-- [trip.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/trip.csv) : 駐車履歴
-- [user.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/user.csv) : ユーザー情報
+- [history.csv](./history.csv) : 乗車履歴
+- [spot.csv]() : 目的地の DB
+- [trip.csv]() : 駐車履歴
+- [user.csv]() : ユーザー情報
 
 ## Installation
 
