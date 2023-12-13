@@ -31,25 +31,25 @@ git clone git@github.com:piderlab/23-databese-class.git
 本演習では，csv ファイルを扱います。その為，分析する際にはデータフレームとして扱うのが良いと思われます。
 以下に，初歩的なデータの扱い方について示します。
 
-```bash
+```py
 # csvファイルをデータフレームとして読み込む
 import pandas as pd
 df = pd.read_csv("相対パス")
 ```
 
-```bash
+```py
 # csvファイル内の日付データ列をdatetime型にしてデータフレームとして読み込む
 import pandas as pd
 df = pd.read_csv("相対パス", parse_dates=["列名"])
 ```
 
-```bash
+```py
 # 読み込んだデータフレーム内にあるリストデータ列をlist型に変換する
 import json
 df["列名"] = df["列名"].map(json.loads)
 ```
 
-```bash
+```py
 # テーブル結合(内部結合)
 marged_df=pd.merge(結合したいデータフレームの格納された変数名1, 結合したいデータフレームの格納された変数名2, on="結合対象となる列名")
 #　必要な列のみ抽出
@@ -62,21 +62,21 @@ marged_df = marged_df[["必要な列名","必要な列名","必要な列名"]]
 以下に，データの可視化をするに当たって初歩的な可視化の方法について示します。
 pythonにおける可視化する際に用いるライブラリは[Matplotlib](https://matplotlib.org/stable/gallery/index)や[plotly](https://plotly.com/python/)など様々なものがありますが，ここでは主にplotlyを用いた可視化の方法について記載します。勿論，他の可視化ライブラリを用いても良いです！！
 
-```bash
+```py
 """棒グラフで可視化する場合の基本コード"""
 import plotly.express as px
 df = ...
 fig = px.bar(df, x="x軸にしたい列", y="x軸に対する量（数値）の列", title="棒グラフ")
 fig.show()
 ```
-```bash
+```py
 """折れ線グラフで可視化する場合の基本コード"""
 import plotly.express as px
 df = ...
 fig = px.line(df, x="x軸にしたい列", y="x軸に対する量（数値）の列", title="折れ線グラフ")
 fig.show()
 ```
-```bash
+```py
 """円グラフで可視化する場合の基本コード"""
 import plotly.express as px
 df = ...
