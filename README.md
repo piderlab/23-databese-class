@@ -15,7 +15,7 @@
 クローンするためにはレポジトリへのアクセス権限が必要です。
 
 ```bash
-git clone git@github.com:piderlab/.git
+git clone git@github.com:piderlab/23-databese-class.git
 ```
 
 ## Example Analysis
