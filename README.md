@@ -59,9 +59,9 @@ df_3 = df_3.loc[:,["必要な列名","必要な列名","必要な列名"]]
 
 ## 参考リンク
 
-- テーブル結合 https://note.nkmk.me/en/python-pandas-merge-join/
-- データ集計 https://note.nkmk.me/python-pandas-groupby-statistics/
-- データの重複削除 https://note.nkmk.me/python-pandas-duplicated-drop-duplicates/
-- ソート https://note.nkmk.me/python-pandas-sort-in-any-order/
-- ソート https://note.nkmk.me/python-pandas-sort-values-sort-index/
-- グラフ描画 https://plotly.com/python/
+- テーブル結合： https://note.nkmk.me/en/python-pandas-merge-join/
+- データ集計： https://note.nkmk.me/python-pandas-groupby-statistics/
+- データの重複削除： https://note.nkmk.me/python-pandas-duplicated-drop-duplicates/
+- ソート： https://note.nkmk.me/python-pandas-sort-in-any-order/
+- ソート： https://note.nkmk.me/python-pandas-sort-values-sort-index/
+- グラフ描画： https://plotly.com/python/
