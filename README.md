@@ -4,10 +4,10 @@
 
 本講義の演習で扱うデータは以下の通りです。
 
-- [history.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/history.csv) : 乗車履歴
-- [spot.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/spot.csv) : 目的地の DB
-- [trip.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/trip.csv) : 駐車履歴
-- [user.csv](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/user.csv) : ユーザー情報
+- [history.csv](./history.csv) : 乗車履歴
+- [spot.csv](./spot.csv) : 目的地の DB
+- [spot.csv](./spot.csv) : 駐車履歴
+- [user.csv](./user.csv) : ユーザー情報
 
 ## Installation
 
@@ -15,7 +15,7 @@
 クローンするためにはレポジトリへのアクセス権限が必要です。
 
 ```bash
-git clone git@github.com:piderlab/.git
+git clone git@github.com:piderlab/23-databese-class.git
 ```
 
 ## Example Analysis
@@ -23,8 +23,8 @@ git clone git@github.com:piderlab/.git
 二つの例を以下に示します。
 是非，演習の参考にしてください。
 
-- [sample_1](https://github.com/piderlab/NAISMoNData-23/blob/main/2023_database_ta/sample_code.ipynb) : 乗車人数が 3 人以上の時，どの spot へ行ったか
-- [sample_2]() :
+- [sample_1](./sample1.ipynb) : 乗車人数が 3 人以上の時，どの spot へ行ったか
+- [sample_2](./sample2.ipynb) : 最も目的地利用している学生の目的地別ランキング
 
 ## Data Handling
 
@@ -59,9 +59,9 @@ df_3 = df_3.loc[:,["必要な列名","必要な列名","必要な列名"]]
 
 ## 参考リンク
 
-- テーブル結合 https://note.nkmk.me/en/python-pandas-merge-join/
-- データ集計 https://note.nkmk.me/python-pandas-groupby-statistics/
-- データの重複削除 https://note.nkmk.me/python-pandas-duplicated-drop-duplicates/
-- ソート https://note.nkmk.me/python-pandas-sort-in-any-order/
-- ソート https://note.nkmk.me/python-pandas-sort-values-sort-index/
-- グラフ描画 https://plotly.com/python/
+- テーブル結合： https://note.nkmk.me/en/python-pandas-merge-join/
+- データ集計： https://note.nkmk.me/python-pandas-groupby-statistics/
+- データの重複削除： https://note.nkmk.me/python-pandas-duplicated-drop-duplicates/
+- ソート： https://note.nkmk.me/python-pandas-sort-in-any-order/
+- ソート： https://note.nkmk.me/python-pandas-sort-values-sort-index/
+- グラフ描画： https://plotly.com/python/
