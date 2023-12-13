@@ -62,7 +62,28 @@ marged_df = marged_df[["必要な列名","必要な列名","必要な列名"]]
 以下に，データの可視化をするに当たって初歩的な可視化の方法について示します。
 pythonにおける可視化する際に用いるライブラリは[Matplotlib](https://matplotlib.org/stable/gallery/index)や[plotly](https://plotly.com/python/)など様々なものがありますが，ここでは主にplotlyを用いた可視化の方法について記載します。勿論，他の可視化ライブラリを用いても良いです！！
 
-
+```bash
+"""棒グラフで可視化する場合の基本コード"""
+import plotly.express as px
+df = ...
+fig = px.bar(df, x="x軸にしたい列", y="x軸に対する量（数値）の列", title="棒グラフ")
+fig.show()
+```
+```bash
+"""折れ線グラフで可視化する場合の基本コード"""
+import plotly.express as px
+df = ...
+fig = px.line(df, x="x軸にしたい列", y="x軸に対する量（数値）の列", title="折れ線グラフ")
+fig.show()
+```
+```bash
+"""円グラフで可視化する場合の基本コード"""
+import plotly.express as px
+df = ...
+fig = px.pie(df, values="割合として出力したい量（数値）", names="量に対するラベル", title="円グラフ")
+fig.show()
+```
+上で示した可視化方法はほんの一部でしかありません。他にもいろいろなグラフが可視化が出来ます。是非，[plotly](https://plotly.com/python/)にいろいろな可視化方法がありますので，他の可視化方法（グラフ）も試してみてください！！
 
 ## 参考リンク
 
