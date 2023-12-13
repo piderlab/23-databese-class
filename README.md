@@ -56,6 +56,14 @@ marged_df=pd.merge(結合したいデータフレームの格納された変数�
 marged_df = marged_df[["必要な列名","必要な列名","必要な列名"]]
 ```
 
+## Data Visualize
+
+本演習では，データを分析するだけではなく，分析結果としてデータの可視化までしてもらいます。
+以下に，データの可視化をするに当たって初歩的な可視化の方法について示します。
+pythonにおける可視化する際に用いるライブラリは[Matplotlib](https://matplotlib.org/stable/gallery/index)や[plotly](https://plotly.com/python/)など様々なものがありますが，ここでは主にplotlyを用いた可視化の方法について記載します。勿論，他の可視化ライブラリを用いても良いです！！
+
+
+
 ## 参考リンク
 
 - テーブル結合： https://note.nkmk.me/en/python-pandas-merge-join/
@@ -63,4 +71,3 @@ marged_df = marged_df[["必要な列名","必要な列名","必要な列名"]]
 - データの重複削除： https://note.nkmk.me/python-pandas-duplicated-drop-duplicates/
 - ソート： https://note.nkmk.me/python-pandas-sort-in-any-order/
 - ソート： https://note.nkmk.me/python-pandas-sort-values-sort-index/
-- グラフ描画： https://plotly.com/python/
