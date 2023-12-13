@@ -23,8 +23,8 @@ git clone git@github.com:piderlab/23-databese-class.git
 二つの例を以下に示します。
 是非，演習の参考にしてください。
 
-- [sample_1](./sample_1.ipynb) : 乗車人数が 3 人以上の時，どの spot へ行ったか
-- [sample_2](./sample_2.ipynb) : 最も目的地利用している学生の目的地別ランキング
+- [sample_1](./sample1.ipynb) : 乗車人数が 3 人以上の時，どの spot へ行ったか
+- [sample_2](./sample2.ipynb) : 最も目的地利用している学生の目的地別ランキング
 
 ## Data Handling
 
