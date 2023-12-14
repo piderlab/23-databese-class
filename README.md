@@ -6,7 +6,7 @@
 
 - [history.csv](./history.csv) : 乗車履歴
 - [spot.csv](./spot.csv) : 目的地の DB
-- [spot.csv](./spot.csv) : 駐車履歴
+- [trip.csv](./trip.csv) : 駐車履歴
 - [user.csv](./user.csv) : ユーザー情報
 
 ## Installation
