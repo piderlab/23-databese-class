@@ -58,7 +58,7 @@ ended_at|乗車し終わった時刻
 from_parking_lot|乗車開始地点 (NAISTまたはATR)
 to_parking_lot|乗車終了地点 (NAISTまたはATR)
 car|使用した車の名前
-passengers_count|乗車人数
+passengers_count|乗車人数（1の場合: 運転手のみ、2以上の場合: 運転手を含めた団体利用）※運転手同士の相乗りではない
 distance|移動距離
 user_id|車に乗車したユーザーのユーザーid
 
